@@ -652,9 +652,9 @@ enum AVCodecID {
     AV_CODEC_ID_SBC,
     AV_CODEC_ID_ATRAC9,
     AV_CODEC_ID_HCOM,
+    AV_CODEC_ID_AV3A = 0x16fff,
 
     /* subtitle codecs */
-    AV_CODEC_ID_AV3A = 0x16fff,
     AV_CODEC_ID_FIRST_SUBTITLE = 0x17000,          ///< A dummy ID pointing at the start of subtitle codecs.
     AV_CODEC_ID_DVD_SUBTITLE = 0x17000,
     AV_CODEC_ID_DVB_SUBTITLE,
